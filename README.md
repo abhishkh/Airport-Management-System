@@ -29,39 +29,4 @@ maintain robust traveler data for personalized experiences, and enforcing rigoro
 and informed decision-making while ensuring adherence to regulatory standards, ultimately elevating the overall passenger experience. Its significance is especially pronounced in ensuring the smooth and secure operation of medium-sized airports.
 
 
-What’s Included:
-Object Type Quantity or Comments Yes/No
-Views 6 This includes - Baggage Tracking, Passenger Bookings,
-           
-Tables
-13
-These tables include - Airport, Employee, Passenger, Ticket, Airline, Flight, Baggage, Booking, Cancellation, Immigration Clearance, Baggage Tracking, Passenger Audit, and Flight Status Audit Table.
-   
-Current Flight Status, Airline Max Revenue, Check Availability, and Employee Airport Visualization.
-Table Level Check Constraint
-4
-Table Employee and Table Passenger - sex check; Ticket Table - class check; Flight Table - Status Check; Baggage Table - size check
-Computed Column based on UDF
-1
-This includes - Calculate Age
-Non-Clustered Indexes
-3
-Non-Clustered index on Booking Table, Employee Table and Baggage Table.
-Stored Procedures
-4
-These include - Handle Baggage, Manage Booking Cancellation, Calculate Total Luggage Weight, Update Flight Status
-User Defined Functions (UDF)
-2
-These include - Calculate Total Flight Revenue and Convert Ticket Price.
-DML Triggers
-Column Data Encryption
-BI Data Visualization
-GUI for CRUD Operations (optional)
-Other
-1
-1 Yes No
--
-Audit Passenger Update, and Audit Flight Status Changed For Password Field in Passenger Table.
-Created Pie Charts and Bar Graphs for data visualization.
-- -
-               
+![image](https://github.com/abhishkh/Airport-Management-System/assets/144843228/2179b261-0549-4be9-a03a-0ebccc741d0b)
